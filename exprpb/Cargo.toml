@@ -1,0 +1,17 @@
+[package]
+name = "exprpb"
+version = "0.1.0"
+authors = ["Aaron J Todd <aajtodd@gmail.com>"]
+edition = "2018"
+description = "Common Expresion Language protobuf definitions"
+repository = "https://github.com/aajtodd/cel"
+keywords = ["cel", "iam", "authorization", "protobuf"]
+categories = ["authentication"]
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "README.md"]
+
+[dependencies]
+protobuf = "2.10.1"
+
+[build-dependencies]
+protoc-rust = "2.10.1"
